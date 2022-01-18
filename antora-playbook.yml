@@ -1,0 +1,18 @@
+# antora-playbook.yml
+site:
+  robots: allow
+  start_page: antora-ui-default::index.adoc
+  title: Example Documentation
+  url: https://docs.example.com
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_path: docs
+runtime:
+  cache_dir: ./build/cache
+ui:
+  bundle:
+    url: ./build/ui-bundle.zip
+urls:
+  html_extension_style: indexify
