@@ -15,7 +15,7 @@ antora.run:
 # antora.watch: @ Watches for documentation changes and rebuilds (to build/site)
 antora.watch:
 	docker-compose run -u $$(id -u) -T antora onchange \
-	-i antora-playbook.yml 'docs/**' \
+	-i antora-playbook.yml 'components/**' 'docs/**' \
 	-- antora generate antora-playbook.yml
 
 # antora.shell: @ Opens bash shell in antora container

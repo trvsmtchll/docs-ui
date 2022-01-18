@@ -1,0 +1,3 @@
+# content/user-guide/modules/ROOT/nav.adoc
+* xref:index.adoc#_welcome[Welcome!]
+* xref:how-it-works.adoc[]

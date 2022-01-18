@@ -1,0 +1,6 @@
+# content/user-guide/modules/ROOT/pages/index.adoc
+= User Guide
+
+== Welcome
+
+Welcome to our product! This is the user guide.

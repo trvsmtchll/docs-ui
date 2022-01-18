@@ -1,0 +1,6 @@
+# content/user-guide/antora.yml
+name: example-user-guide
+title: Example User Guide
+version: master
+nav:
+- modules/ROOT/nav.adoc

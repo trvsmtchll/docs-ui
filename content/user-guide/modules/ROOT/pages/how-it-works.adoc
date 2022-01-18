@@ -1,0 +1,5 @@
+# content/user-guide/modules/ROOT/pages/how-it-works.adoc
+= This Is How It Works
+:navtitle: But How Does It Work?
+
+Well, to be honest, we're not exactly sure how any of this works.

@@ -1,14 +1,16 @@
 # antora-playbook.yml
 site:
   robots: allow
-  start_page: antora-ui-default::index.adoc
+  start_page: example-user-guide::index.adoc
   title: Example Documentation
   url: https://docs.example.com
 content:
   sources:
   - url: ./
     branches: HEAD
-    start_path: docs
+    start_paths:
+    - docs
+    - content/*
 runtime:
   cache_dir: ./build/cache
 ui:
